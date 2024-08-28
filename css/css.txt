@@ -1,0 +1,81 @@
+Infos sur les classes utilisables :
+
+Button :
+    btnPad = pad 4 8px
+    btn = block et pointer
+    b-none = border: none
+    cursor-pointer = cursor: pointer
+    toggle-pwd = large 30 et h 20px
+    toggle-pwd img = h100% et h auto
+
+Colors :
+    valide = color: var(--valide)
+    non-valide = color : var(--nonValide)
+    txt-one = color: var(--txt-one)
+    txt-two = color: var(--txt-two)
+    txt-three = color: var(--txt-three)
+    back-one = background-color: var(--back-one)
+    back-two = background-color: var(--back-two)
+    back-three = background-color: var(--back-three)
+    blur5 = floutage de l'élément
+    back-blur5 = floutage de l'arrière plan de l'élément
+
+Display :
+    pos-rel = position: relative
+    flex = display: flex et flex-wrap: wrap
+    d-none = display: none
+    d-block = display: block
+    .j-between = justify-content: space-between
+    j-center = justify-content: center
+    a-center = align-items: center
+    a-between = align-items: space-between
+    txt-center = text-align: center
+    txt-end = text-align: end
+    arriere-plan = z-index: -1
+    popup = z-index: 1
+    plein-ecran = rempli la totalité de l'écran
+    center-xy = cntrée au milieu de l'écran
+    center-x = centré horizontalement
+    center-y = centré verticalement
+
+Font-size : 
+    fs4, 8, 16, 24, 32, 48, 60, 80 px
+
+Font-weight : 
+    fw100, 200, 300, 400, 500, 600, 700, 800, 900
+    fw-normal, lighter, bold, bolder
+
+Gap :
+    gap4, 8, 16, 24, 32 px
+
+Largeur : x = 1 à 12
+    Desktop = large-x
+    Tablets = medium-x          // (min-width: 690px) and (max-width: 1024px)
+    Smartphon = small-x         // (max-width: 689px)
+
+Marge : 
+    mt ou mb ou mr ou mlauto, 4, 8, 16, 24, 32, 48, 60, 80 px
+    mrlauto = marge gauche droite auto
+    mtbauto = marge top bottom auto
+    mt = margin-top
+    mb = margin-bottom 
+    mr = margin-right
+    ml = margin-left
+
+Padding : 
+    p4, 8, 16, 24, 32 px
+
+Round :
+    round4, 8, 16, 32px
+
+Utilitaire divers :
+    overflow-hidden = efface ce qui dépasse de l'élément
+    halo-souris - classe à utiliser sur la div
+
+Gestion par défaut (sans utiliser la classe) :
+    :visited, :active, :link = text-decoration: none 
+    li = list-style: none 
+    init
+    Loader
+    Menu burger
+    Switch
