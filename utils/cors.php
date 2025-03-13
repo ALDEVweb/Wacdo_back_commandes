@@ -5,6 +5,7 @@
 // Liste des origines autorisées
 $origineAutorise = [
     "https://wacdo.aldev-web.fr",
+    "http://localhost:5501",
 ];
 
 // on vérifie si la requete fait partit des origine autorisé
