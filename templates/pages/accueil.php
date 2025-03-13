@@ -18,7 +18,7 @@
         <?php if($statut == "ADMIN" || $statut == "ACC"){ ?>
         <!-- si ADMIN ou ACC --> 
             <!-- bouton saisir une commande -->
-            <div class="large-12 flex j-center mt32"><a href="http://exam-front.alaugier.mywebecom.ovh" target="_blank" title="lien de redirection vers l'application borne de commande Wacdo - nouvelle fenêtre"><button>Saisir une commande</button></a></div>
+            <div class="large-12 flex j-center mt32"><a href="https://wacdo.aldev-web.fr" target="_blank" title="lien de redirection vers l'application borne de commande Wacdo - nouvelle fenêtre"><button>Saisir une commande</button></a></div>
         <?php } ?>    
         <!-- pour tout le monde on affiche la liste des commande -->
             <div class="flex j-center gap32 mt64">
