@@ -36,7 +36,7 @@ if($idProduit != 0) $produit = new Produit($idProduit);
 $produit->nom = $nom;
 $produit->image = $image;
 $produit->prix = $prix;
-$produit->disponible = $disponible;
+$produit->disponible = $disponible === "on" ? 1 : 0;
 // on met à jour le produit dans la bdd
 $produit->update();
 

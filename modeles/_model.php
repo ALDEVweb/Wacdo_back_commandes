@@ -609,6 +609,8 @@ class _model extends fragment {
                                 $html .= "<input type='$type' name='$field' id='$nom-$field' class='input-pwd small-10 medium-10 large-10 txt-one' data-pwd='$nbrMdp'>";
                                 $html .= "<div class='toggle-pwd p4 round4 flex j-center small-1 medium-1 large-1' data-pwd='$nbrMdp' data-colorOeil='$oeil'><img src='assets/picto/oeil_ferme_$oeil.svg' alt='oeil'></div>";
                                 $html .= "</div>";
+                            }else if ($type == "PRICE"){
+                                $html .= "<input class='small-12 medium-12 large-10 mrlauto mt8 d-block' type='number' step='0.01' min='0' name='$field' id='$nom-$field' value='$value'>";
                             }else{
                                 $html .= "<input class='small-12 medium-12 large-10 mrlauto mt8 d-block' type='$type' name='$field' id='$nom-$field' value='$value'>";
                             }

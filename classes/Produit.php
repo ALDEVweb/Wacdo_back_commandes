@@ -21,7 +21,7 @@ class Produit extends _model {
     protected function define(){
         // création des champs de la class
         $this->addField("nom", $type = "TEXT", $libelle = "Nom");
-        $this->addField("prix", $type = "NUMBER", $libelle = "prix");
+        $this->addField("prix", $type = "PRICE", $libelle = "prix");
         $this->addField("image", $type = "TEXT", $libelle = "Image");
         $this->addField("categorie", $type = "NUMBER", $libelle = "Categorie", $link = "Categorie");
         $this->addField("disponible", $type = "CHECKBOX", $libelle = "Disponible");

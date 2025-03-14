@@ -22,7 +22,7 @@ class Option extends _model {
         // création des champs de la class
         $this->addField("type", $type = "TEXT", $libelle = "Type");
         $this->addField("nom", $type = "TEXT", $libelle = "Nom");
-        $this->addField("prix", $type = "NUMBER", $libelle = "Prix");
+        $this->addField("prix", $type = "PRICE", $libelle = "Prix");
     }
 
 }
