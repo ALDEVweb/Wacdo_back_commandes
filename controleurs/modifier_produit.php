@@ -53,5 +53,5 @@ if($produit->categorie == 1 || $produit->categorie == 3){
 }
 
 // affichage
-header('Location: afficher_accueil.php');
+header('Location: index.php?controleur=afficher_accueil');
 exit;

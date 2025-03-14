@@ -54,5 +54,5 @@ if($mdp != '') $utilisateur->mdp = password_hash($mdp, PASSWORD_DEFAULT);
 $utilisateur->update();
 
 // affichage
-header('Location: afficher_accueil.php');
+header('Location: index.php?controleur=afficher_accueil');
 exit;

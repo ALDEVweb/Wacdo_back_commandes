@@ -55,5 +55,4 @@ class Utilisateur extends _user {
         return "<li class='large-12'><a class='flex large-12 j-center' href='index.php?controleur=afficher_modif_utilisateur&idUtilisateur=$id'><p class='large-8 txt-center'>$nom $prenom</p><p class='large-4 txt-center'>$statut</p></a></li>";
     }
 }
-?>
 
